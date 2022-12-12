@@ -7,6 +7,7 @@ body {
 }
 main {
   display: flex;
+
   justify-content: center;
 }
 section {
@@ -71,4 +72,31 @@ hr {
 
 .author a {
   text-decoration: none;
+}
+
+/* latest course style  */
+.latest-courses {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.course {
+  background-color: rgba(65, 105, 225, 0.156);
+
+  border-radius: 10px;
+  width: 252.42px;
+  height: 269.79px;
+}
+.course-container {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.course-author {
+  color: #ed6b4f;
+}
+
+.course-thumbnail img {
+  height: 105px;
+  width: 225px;
 }
