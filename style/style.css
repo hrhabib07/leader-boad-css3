@@ -17,12 +17,21 @@ section {
 }
 .section-title {
   color: royalblue;
+  margin-top: 0px;
+}
+
+hr {
+  border: 1px solid gray;
 }
 /* top players style  */
+
+.top-players {
+  margin-bottom: 30px;
+}
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  grid-row-gap: 30px;
 }
 .player {
   display: flex;
@@ -34,4 +43,5 @@ section {
 }
 .player-name {
   margin-left: 10px;
+  font-size: 20px;
 }
