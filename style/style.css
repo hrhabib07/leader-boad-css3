@@ -16,7 +16,7 @@ section {
   border-radius: 10px;
 }
 .section-title {
-  color: royalblue;
+  color: #562eff;
   margin-top: 0px;
 }
 
@@ -44,4 +44,31 @@ hr {
 .player-name {
   margin-left: 10px;
   font-size: 20px;
+}
+
+/* styles for blogs */
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 40px;
+}
+
+.blog {
+  display: flex;
+}
+
+.thumbnail img {
+  height: 117px;
+  width: 177px;
+}
+.blog-info {
+  margin-left: 10px;
+}
+
+.author {
+  color: gray;
+}
+
+.author a {
+  text-decoration: none;
 }
